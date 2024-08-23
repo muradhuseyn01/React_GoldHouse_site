@@ -5,6 +5,12 @@ import Card from '../components/productCard'
 import Category from '../components/categoryCard'
 import Article from '../components/article'
 import ArticleLeft from '../components/articleLeft'
+import compl1 from "../assets/images/compl1.jpg"
+import sep4 from "../assets/images/sep4.webp"
+import sirqa1 from "../assets/images/sirqa1.jpg"
+import diamn3 from "../assets/images/diamn3.webp"
+import sep from "../assets/images/sep.webp"
+import diamn from "../assets/images/diamn.jpg"
 
 export default function home() {
   return (
@@ -28,12 +34,12 @@ export default function home() {
             <h1>Yeni Modellərimiz</h1>
           </div>
           <div className='home__container-products-cards'>
-            <Card image='src/assets/images/compl1.jpg' information='Komplekt Dəst Ağ Qızıl' />
-            <Card image='src/assets/images/sep4.webp' information='Boyunbagı' />
-            <Card image='src/assets/images/sirqa1.jpg' information='Piercing Ağ Qızılla' />
-            <Card image='src/assets/images/diamn3.webp' information='585 Əyyar Üzük' />
-            <Card image='src/assets/images/sep.webp' information='Enli Boyunbağı' />
-            <Card image='src/assets/images/diamn.jpg' information='Qolbağı Ağ Qızılla' />
+            <Card image={compl1} information='Komplekt Dəst Ağ Qızıl' />
+            <Card image={sep4} information='Boyunbagı' />
+            <Card image={sirqa1} information='Piercing Ağ Qızılla' />
+            <Card image={diamn3} information='585 Əyyar Üzük' />
+            <Card image={sep} information='Enli Boyunbağı' />
+            <Card image={diamn} information='Qolbağı Ağ Qızılla' />
           </div>
           <Link to='/product'><button className='product-btn'>Məlumat üçün</button></Link>
           <div className='home__container-products-category'>

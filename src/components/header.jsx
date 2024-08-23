@@ -2,6 +2,10 @@ import React from 'react'
 import { useState } from 'react'
 import '../components/header.css'
 import { Link } from 'react-router-dom'
+import logo from "../assets/images/logo.jpg"
+import barssolid from "../assets/images/bars-solid.svg"
+import insta from "../assets/images/insta.jpg"
+import wp from "../assets/images/wp.jpg"
 
 export default function header(probs) {
     const { infoImg, infoText } = probs;
@@ -14,10 +18,10 @@ export default function header(probs) {
 
             <div className='container__header-up'>
                 <div className='container__header-up-logo'>
-                    <img src="src/assets/images/logo.jpg" alt="NurLogo" />
+                    <img src={logo} alt="NurLogo" />
                 </div>
                 <div className='container__header-up-dropdown' onClick={toggleClick}>
-                    <img src="src/assets/images/bars-solid.svg" alt="icon" />
+                    <img src={barssolid} alt="icon" />
                 </div>
                 <div className={`container__header-up-pages ${open ? 'active' : ''}`}>
                     <Link to="/" className=' up-pages-name pages-act'>Əsas</Link>
@@ -38,9 +42,9 @@ export default function header(probs) {
                     <Link to="/about"><button className='container__header-down-info-btn'>Ətraflı</button></Link>
                     <br />
                     <a href="https://www.instagram.com/beyleqan_qizil_gumus/">
-                        <img className='icon-instagram' src="src/assets/images/insta.jpg" alt="photo" />
+                        <img className='icon-instagram' src={insta} alt="photo" />
                     </a>
-                    <img className='icon-whatsapp' src="src/assets/images/wp.jpg" alt="photo" />
+                    <img className='icon-whatsapp' src={wp} alt="photo" />
                     <p className='wp-hover'>050-994-74-04 | 051-313-00-43</p>
                 </div>
                 <div className='container__header-down-img'>
