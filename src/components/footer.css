@@ -1,0 +1,118 @@
+.footer {
+    width: 100%;
+    padding: 40px 0 0 0;
+    background-color: black;
+    border-top: 1px solid rgb(128, 85, 7);
+    color: white;
+}
+
+.container__footer {
+    width: 88%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.container__footer-models {
+    width: 30%;
+    font-family: 'Ubuntu';
+}
+
+.container__footer-models>h3,
+.container__footer-info>h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.container__footer-models>p,
+.container__footer-info>p {
+    font-size: 1.1rem;
+    padding: 8px 0;
+    color: rgb(128, 85, 7);
+}
+
+.container__footer-models>p:hover,
+.container__footer-info>p:hover {
+    cursor: pointer;
+}
+
+.container__footer-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__footer-down {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.container__footer-contact {
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container__footer-contact-inst,
+.container__footer-contact-tt,
+.container__footer-contact-wp {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 17%, rgba(253, 187, 45, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container__footer-contact>img {
+    width: 50px;
+    height: 30px;
+}
+
+
+@media only screen and (max-width:400px) {
+    .container__footer {
+        width: 92%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .container__footer-models {
+        width: 90%;
+    }
+
+    .container__footer-models>h3,
+    .container__footer-info>h3 {
+        font-size: 1.4rem;
+        margin-bottom: 17px;
+    }
+
+    .container__footer-info>h3 {
+        margin: 17px 0;
+    }
+
+    .container__footer-models>p,
+    .container__footer-info>p {
+        padding: 4px 0;
+    }
+
+    .container__footer-contact-inst,
+    .container__footer-contact-tt,
+    .container__footer-contact-wp {
+        width: 40px;
+        height: 45px;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
+
+    .container__footer-contact>img {
+        width: 40px;
+        height: 20px;
+    }
+}
