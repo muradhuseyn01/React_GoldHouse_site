@@ -264,6 +264,6 @@ Link {
     .wp-hover {
         width: 70%;
         left: 16%;
-        bottom: 320px;
+        bottom: 260px; z-index: 2;
     }
 }
