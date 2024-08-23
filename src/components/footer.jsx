@@ -1,6 +1,10 @@
 import React from 'react'
 import '../components/footer.css'
 import { Link } from 'react-router-dom'
+import tiktok from "../assets/images/tiktok-brands-solid.svg"
+import wp from "../assets/images/whatsapp-brands-solid.svg"
+import insta from "../assets/images/instagram-brands-solid.svg"
+
 
 export default function footer() {
     return (
@@ -23,14 +27,14 @@ export default function footer() {
                 <div className='container__footer-contact'>
                     <div className='container__footer-contact-inst'>
                         <a href="https://www.instagram.com/beyleqan_qizil_gumus/">
-                            <img className='icon-instagram' src="src/assets/images/instagram-brands-solid.svg" alt="photo" />
+                            <img className='icon-instagram' src={insta} alt="photo" />
                         </a>
                     </div>
                     <div className='container__footer-contact-wp'>
-                        <img className='icon-whatsapp' src="src/assets/images/whatsapp-brands-solid.svg" alt="photo" />
+                        <img className='icon-whatsapp' src={wp} alt="photo" />
                     </div>
                     <div className='container__footer-contact-tt'>
-                        <img className='icon-whatsapp' src="src/assets/images/tiktok-brands-solid.svg" alt="photo" />
+                        <img className='icon-whatsapp' src={tiktok} alt="photo" />
                     </div>
                 </div>
             </div>

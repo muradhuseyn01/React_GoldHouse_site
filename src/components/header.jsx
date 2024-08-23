@@ -10,6 +10,7 @@ import wp from "../assets/images/wp.jpg"
 export default function header(probs) {
     const { infoImg, infoText } = probs;
 
+
     const [open, setOpen] = useState(false);
     const toggleClick = () => setOpen(!open);
 
@@ -31,7 +32,6 @@ export default function header(probs) {
                         <p>ƏA</p>
                     </div>
                 </div>
-
             </div>
             <div className='container__header-down'>
                 <div className='container__header-down-info'>

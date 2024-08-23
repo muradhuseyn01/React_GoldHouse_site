@@ -5,6 +5,7 @@ import About from './pages/about'
 import Product from './pages/product'
 import Error from './pages/error'
 import Footer from './components/footer'
+import diamn7 from '../src/assets/images/diamn7.webp'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
     <div className='app'>
       <Header 
       infoText="Eksklüziv dizaynda Qızıl və Brilliant modellər burada "
-      infoImg="src/assets/images/diamn7.webp"  />
+      infoImg={diamn7}  />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About/>}/>

@@ -1,12 +1,18 @@
 import React from 'react'
 import "../pages/about.css"
 import { Link } from 'react-router-dom'
+import compl11 from "../assets/images/compl11.jpg"
+import compl8 from "../assets/images/compl8.jpg"
+import adres2 from "../assets/images/adres2.jpg"
+import insta from "../assets/images/insta.jpg"
+import wp from "../assets/images/wp.jpg"
+import glossy from "../assets/images/glossy.jpg"
 
 export default function about() {
   return (
     <div className='about'>
       <div className='about__container-up'>
-        <img src="src/assets/images/compl11.jpg" alt="photo" />
+        <img src={compl11} alt="photo" />
         <div className='about__container-up-information'>
           <h2>İstənilən növ Qızılın alışı və satışı bizim ünvanda!!</h2>
           <p>İllərdir fəaliyyət göstərən mağazamızda həm yeni model Qızıl və Brilliant aksesuarları  əldə edə həm də yeni modellər üzərindən sifariş verə bilərsiniz.
@@ -19,21 +25,21 @@ export default function about() {
       <div className='about__container-down'>
         <div className='about__container-down-information'>
           <div className='about__container-down-information-adres'>
-            <img src="src/assets/images/adres2.jpg" alt="photo" />
+            <img src={adres2} alt="photo" />
             <p>Beyləqan rayonu mərkəzi bazarın qarşısı: <span>NUR & QIZIL</span> Mağazası</p>
           </div>
           <div className='about__container-down-information-socialWp'>
-            <img src="src/assets/images/wp.jpg" alt="photo" />
+            <img src={wp} alt="photo" />
             <p>050-994-74-04 | 051-313-00-43 | 051-320-80-47</p>
           </div>
           <div className='about__container-down-information-socialIns'>
-            <img src="src/assets/images/insta.jpg" alt="photo" />
+            <img src={insta} alt="photo" />
             <p>Beyleqan_qizil_gumus | Nur_qizil_beyleqan</p>
           </div>
         </div>
-        <img src="src/assets/images/compl8.jpg" alt="photo" />
+        <img src={compl8} alt="photo" />
         <div className='smallimg'>
-        <img src="src/assets/images/glossy.jpg" alt="photo" />
+        <img src={glossy} alt="photo" />
         </div>
       </div>
     </div>

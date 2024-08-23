@@ -21,7 +21,7 @@ Link {
     border-bottom: 1px solid rgb(128, 85, 7);
     z-index: 2;
     position: relative;
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     align-items: center;
 }
