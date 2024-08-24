@@ -21,7 +21,7 @@ Link {
     border-bottom: 1px solid rgb(128, 85, 7);
     z-index: 2;
     position: relative;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -65,6 +65,7 @@ Link {
     padding-bottom: 8px;
     cursor: pointer;
 }
+
 .up-pages-name:hover {
     border-bottom: 2.5px solid white;
     color: rgb(215, 142, 6);
@@ -73,10 +74,12 @@ Link {
 .pages-act {
     border-color: rgb(128, 85, 7);
 }
-.pages-about{
+
+.pages-about {
     border-color: rgb(102, 12, 122);
 }
-.pages-product{
+
+.pages-product {
     border-color: rgb(12, 122, 78);
 }
 
@@ -182,7 +185,7 @@ Link {
 }
 
 
- /* @media only screen and (max-width:400px) {
+/* @media only screen and (max-width:400px) {
     .header {
         width: 100%;
     }
@@ -349,7 +352,12 @@ Link {
     .wp-hover {
         width: 70%;
         left: 16%;
-        bottom: 650px;
-         z-index: 2;
+        bottom: 300px;
+        display: none;
+        z-index: 2;
+    }
+
+    .icon-whatsapp:hover+.wp-hover {
+        display: none;
     }
 }
