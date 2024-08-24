@@ -30,7 +30,7 @@ export default function about() {
           </div>
           <div className='about__container-down-information-socialWp'>
             <img src={wp} alt="photo" />
-            <p>050-994-74-04 | 051-313-00-43 | 051-320-80-47</p>
+            <p>050-994-74-04 | 051-313-00-43 | 050-321-80-47</p>
           </div>
           <div className='about__container-down-information-socialIns'>
             <img src={insta} alt="photo" />
